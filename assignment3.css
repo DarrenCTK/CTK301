@@ -18,6 +18,11 @@ h4{
     background-color:black;
 }
 
+p{
+    color: white;
+    background-color:red;
+}
+
 a{
     color:red;
 }
@@ -26,12 +31,12 @@ a:visited{
     color:green;
 }
 
-
-
 a:hover{
     color:yellow;
 }
 
-.html{color:red;} 
+.html{color:red;
+background-color:white} 
 
-#dh{color: red;}
+#dh{color: red;
+background-color:white;}
