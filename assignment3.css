@@ -1,0 +1,37 @@
+h1{
+    color:white;
+    background-color:red;
+}
+
+h2{
+    color: white;
+    background-color:red;
+}
+
+h3{
+    color:white;
+    background-color:black;
+}
+
+h4{
+    color:white;
+    background-color:black;
+}
+
+a{
+    color:red;
+}
+
+a:visited{
+    color:green;
+}
+
+
+
+a:hover{
+    color:yellow;
+}
+
+.html{color:red;} 
+
+#dh{color: red;}
