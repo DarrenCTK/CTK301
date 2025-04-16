@@ -1,0 +1,80 @@
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    border: 1px solid #ff0000;
+    background-color: #ffffff;
+    display:grid;
+    grid-template-columns: repeat(12,1fr);
+  }
+  header{
+    grid-column:span 12 ;
+    background-color: blue;
+    background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  nav{
+    grid-column: span 12;
+    background-color: blue;
+    background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+  }
+  nav ul{
+    list-style: none;
+  }
+  nav li{
+    width:240px;
+    display:inline-block;
+  
+  }
+  nav li a{
+    display:block;
+    color:white;
+    text-decoration:none ;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  aside{
+    grid-column:span 4;
+    background-color: lightblue;
+    font-weight:bold;
+    text-align: justify;
+    padding:24px;
+  }
+  main{
+    grid-column: span 8;
+    padding:24px;
+  }
+  footer{
+    grid-column:span 12;
+    background-color:red;
+  }
+  h2{
+    font-family:Arial, Helvetica, sans-serif;
+    border-bottom:3px solid blue;
+    color:blue;
+  }
+  #mainimg{
+  float:left;
+  padding-right: 24px;
+  }
+  main a{
+    color:red;
+    font-weight:bold;
+    text-decoration:none;
+  }
+#mainimg2{
+  float:right;
+  padding-right: 24px;
+  }
+
+  section{
+    grid-column: span 4;
+    padding: 24px;
+
+  }
+
+  section img{
+    width: 100%;
+  }
+  
