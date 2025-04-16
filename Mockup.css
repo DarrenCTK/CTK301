@@ -1,0 +1,55 @@
+body {
+    background-color: #999999;
+  }
+  
+  #wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    border: 1px solid black;
+    padding: 24px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+    
+  }
+
+  nav{
+    grid-column: span 12;
+    background-color: blue;
+    background-image: (to top, );
+  }
+
+  header{
+    grid-column: span 12;
+    background-color: blue;
+    background-image: (to top, );
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+  section{
+    grid-column: span 4;
+
+  }
+
+  section img{
+    width: 100%;
+  }
+
+  nav ul{
+    list-style: none;
+  }
+
+  nav li{
+    width:240px;
+    display:inline-block;
+  
+  }
+
+  nav li a{
+    display:block;
+    color:black;
+    text-decoration:none ;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;}
