@@ -3,6 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Darren's Designs</title>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
@@ -12,30 +14,34 @@
 <body>
 	<div id="wrapper">
 <nav><ul>
-    <li><a href="Home">Home</a></li>
-    <li><a href="Contact">Contact</a></li>
-    <li><a href="About Me">About Me</a></li>
-    <li><a href="Projects">Projects</a></li>
+  <li><a href="Mockup.html">Home</a></li>
+  <li><a href="Mockuppage2.html">Contact</a></li>
+  <li><a href="Mockuppage3.html">Projects</a></li>
   </ul></nav> 
 
   <header><h1>Darren's Designs</h1></header> 
 
   <section><h2> Inspiration 1</h2>
-  <img src="a.jpg" alt="Mortal Kombat">  
+  <a href="a.jpg" data-fancybox="gallery" data-caption="Mortal Kombat">
+  <img src="a.jpg" alt="Mortal Kombat"> </a> 
 
   <p>This is a photo of one one of my favorite video games from my favorite fighting franchise which is Mortal Kombat this is one of my inspirations because I want to make designs like this one day </p></section>
 
   <section><h2> Inspiration 2 </h2> 
-  <img src="wp5281677.jpg" alt="Skull">
-  <audio controls autoplay >
-    <source src="Gaurds Searching for You Theme.mp3" type="audio/mpeg">
-  </audio>
-</section>
+  <a href="wp5281677.jpg" data-fancybox="gallery" data-caption="Skull">
+  <img src="wp5281677.jpg" alt="Skull"> </a></section> 
+  
 
   <section><h2>Inspiration 3 </h2> 
-   <img src="DuI47V9.jpg"Fire Skull"></section>
-   <a class="bi bi-youtube" href="https://youtube.com"target="_blank"></a>
+   <a href="DuI47V9.jpg" data-fancybox="gallery" data-caption="Fire Skull">
+   <img src="DuI47V9.jpg"Fire Skull"></a></section>
+   <a class="bi bi-youtube" href="https://youtube.com"target="_blank"></a> 
 </div>
+
+<script>   
+    Fancybox.bind("[data-fancybox]", {}); 
+    </script>
+
 </body>
 </html>
 
